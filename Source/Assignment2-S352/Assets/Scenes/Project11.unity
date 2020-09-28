@@ -498,6 +498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce26e6539c8b45f0aff009711deae77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectPrefabs:
+  - {fileID: 8579601760348528630, guid: 0752829c2e3ba4cb78049ff40067a24f, type: 3}
+  - {fileID: 11368019182273911, guid: 1db47c5ef25154fb1806822c25335042, type: 3}
 --- !u!4 &460865717
 Transform:
   m_ObjectHideFlags: 0
@@ -783,7 +786,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 835818919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bf1b15f61b704c8e8e279e263bb77b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 81a5c5922d659ff418abc8caa9b98f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
@@ -796,7 +799,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 835818919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c03c5e4419147aba4d67fc937a0b0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c9d276fdfa304c4fbf6b6481a8b2836, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &835818924
@@ -1232,6 +1235,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3da77984db434cf7a7209211eb746ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: 0
+  floatForce: 0
+  explosionParticle: {fileID: 0}
+  fireworksParticle: {fileID: 0}
+  moneySound: {fileID: 0}
+  explodeSound: {fileID: 0}
+  boing: {fileID: 0}
+  isLowEnough: 0
+  isHighEnough: 0
+  ceiling: 15
+  floor: 1
 --- !u!1001 &2097113909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1442,7 +1456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e6556bfaaf8448faa6f3f29def86ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spinSpeed: 50
 --- !u!82 &1984236390720035106
 AudioSource:
   m_ObjectHideFlags: 0

@@ -918,7 +918,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1923370530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 053454433c6225d4e833af4214e55e8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3eda44c1fd6d089448d14c47f7ca76ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
@@ -934,11 +934,6 @@ MonoBehaviour:
   - {fileID: 105536, guid: 957efc93c4488964582c89c0bf939bf0, type: 3}
   startDelay: 2
   spawnInterval: 1.5
-  obstaclePrefabs: []
-  enemyPrefab: {fileID: 0}
-  powerupPrefab: {fileID: 0}
-  enemyCount: 0
-  waveNumber: 1
 --- !u!4 &1923370532
 Transform:
   m_ObjectHideFlags: 0
@@ -962,7 +957,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1923370530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c0e1f24e2ce4a5b9bf1f3a7499cd45, type: 3}
+  m_Script: {fileID: 11500000, guid: a78fea954767f594ebbfac053c844aff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pooledObjects: []
@@ -984,22 +979,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2012278015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38e917c52987daa41af6a0305d9813c6, type: 3}
+  m_Script: {fileID: 11500000, guid: a54dec06b8b910546bb7b2db37fcbeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1015590495963091511, guid: a425ebbc75977f342b270860464ed77e,
     type: 3}
-  explosionParticle: {fileID: 0}
-  dirtParticle: {fileID: 0}
-  jumpSound: {fileID: 0}
-  crashSound: {fileID: 0}
-  jumpForce: 20
-  gravityModifier: 3
-  isOnGround: 1
-  isGameOver: 0
-  powerupIndicator: {fileID: 0}
-  speed2: 5
-  hasPowerup: 0
 --- !u!1 &2030188614
 GameObject:
   m_ObjectHideFlags: 0

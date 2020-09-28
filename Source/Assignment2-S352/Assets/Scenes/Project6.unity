@@ -630,7 +630,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 573453567e55b468d959b66ab676a102, type: 3}
+  m_Script: {fileID: 11500000, guid: 50cfd8bc52b59144ea6a1c61266ddbf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   plane: {fileID: 825415029}
@@ -879,31 +879,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 825415029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d96ad106bd784549a370bbfd1f8b697, type: 3}
+  m_Script: {fileID: 11500000, guid: 0232a093d67e448b7a80e945acf8e227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dogPrefab: {fileID: 0}
-  wait: 0
-  interval: 1
-  latency: 0
   speed: 15
   rotationSpeed: 100
   verticalInput: 0
-  gameOver: 0
-  floatForce: 0
-  explosionParticle: {fileID: 0}
-  fireworksParticle: {fileID: 0}
-  moneySound: {fileID: 0}
-  explodeSound: {fileID: 0}
-  boing: {fileID: 0}
-  isLowEnough: 0
-  isHighEnough: 0
-  ceiling: 15
-  floor: 1
-  hasPowerup: 0
-  powerupIndicator: {fileID: 0}
-  powerUpDuration: 5
-  boostFx: {fileID: 0}
 --- !u!4 &825415035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: af29f0ea7e5403641b3b244ede69c374,

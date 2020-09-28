@@ -467,7 +467,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 355618743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d96ad106bd784549a370bbfd1f8b697, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bde03716847d144a8e91952a168ebdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dogPrefab: {fileID: 8241448880393145375, guid: 3e5fe95e580114a5f8f8348678e77463,
@@ -475,24 +475,6 @@ MonoBehaviour:
   wait: 0
   interval: 1
   latency: 0
-  speed: 0
-  rotationSpeed: 0
-  verticalInput: 0
-  gameOver: 0
-  floatForce: 0
-  explosionParticle: {fileID: 0}
-  fireworksParticle: {fileID: 0}
-  moneySound: {fileID: 0}
-  explodeSound: {fileID: 0}
-  boing: {fileID: 0}
-  isLowEnough: 0
-  isHighEnough: 0
-  ceiling: 15
-  floor: 1
-  hasPowerup: 0
-  powerupIndicator: {fileID: 0}
-  powerUpDuration: 5
-  boostFx: {fileID: 0}
 --- !u!4 &355618745
 Transform:
   m_ObjectHideFlags: 0
@@ -1247,19 +1229,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1007274690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 745c25f6adc3b4804961d8389a1a74fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a5ffd05de29a244b9053cb7f600d1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ballPrefabs:
   - {fileID: 2178073922435996824, guid: 1d143480adadf43389395930eee2b5cf, type: 3}
   - {fileID: 4524317531697499709, guid: a325bcb65fd94414191d0ddc2514e2dc, type: 3}
   - {fileID: 7945815000853930370, guid: fc41e6839a5494e0cbaea5f0081c271d, type: 3}
-  objectPrefabs: []
-  enemyPrefab: {fileID: 0}
-  powerupPrefab: {fileID: 0}
-  enemyCount: 0
-  waveCount: 1
-  player: {fileID: 0}
 --- !u!1 &1025854373
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,6 +1525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2178073922435996825, guid: 1d143480adadf43389395930eee2b5cf,
+        type: 3}
+      propertyPath: speed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d143480adadf43389395930eee2b5cf, type: 3}
@@ -1916,6 +1897,7 @@ MonoBehaviour:
   backButton: {fileID: 0}
   nextButton: {fileID: 0}
   comingSoonButton: {fileID: 0}
+  personalButton: {fileID: 0}
   game1: {fileID: 0}
   game2: {fileID: 0}
   game3: {fileID: 0}
