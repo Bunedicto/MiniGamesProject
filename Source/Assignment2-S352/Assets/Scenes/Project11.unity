@@ -174,6 +174,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1902927249581051, guid: 1db47c5ef25154fb1806822c25335042, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902927249581052, guid: 1db47c5ef25154fb1806822c25335042, type: 3}
+      propertyPath: spinSpeed
+      value: -100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1db47c5ef25154fb1806822c25335042, type: 3}
 --- !u!1 &170076733
@@ -1155,6 +1163,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1679768777 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871,
+    type: 3}
+  m_PrefabInstance: {fileID: 954209497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1707228473 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19821056, guid: 079954accd64b32419ec069129c81273,
+    type: 3}
+  m_PrefabInstance: {fileID: 2097113909}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1962263491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,12 +1256,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOver: 0
-  floatForce: 0
-  explosionParticle: {fileID: 0}
-  fireworksParticle: {fileID: 0}
-  moneySound: {fileID: 0}
-  explodeSound: {fileID: 0}
-  boing: {fileID: 0}
+  floatForce: 50
+  explosionParticle: {fileID: 1707228473}
+  fireworksParticle: {fileID: 1679768777}
+  moneySound: {fileID: 8300000, guid: af9f934eb4288464eb120a5857921cc3, type: 3}
+  explodeSound: {fileID: 8300000, guid: 774ebc5c074ce4695b7cc310fbd44087, type: 3}
+  boing: {fileID: 8300000, guid: ccb9b31174a3a43709a113a9c7cf4252, type: 3}
   isLowEnough: 0
   isHighEnough: 0
   ceiling: 15
@@ -1453,9 +1473,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1672443118734094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29e6556bfaaf8448faa6f3f29def86ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 2af2155c13f474d4494898500e806777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spinSpeed: 50
 --- !u!82 &1984236390720035106
 AudioSource:
   m_ObjectHideFlags: 0

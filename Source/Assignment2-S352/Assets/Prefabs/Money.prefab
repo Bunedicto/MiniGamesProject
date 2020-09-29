@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8579601760347414022}
   - component: {fileID: 8579601760346558082}
   - component: {fileID: 1575377580261288085}
+  - component: {fileID: 4330052750577001728}
   - component: {fileID: 4777454022015003827}
   m_Layer: 0
   m_Name: Money
@@ -92,6 +93,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+--- !u!114 &4330052750577001728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8579601760348528630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af2155c13f474d4494898500e806777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: -250
 --- !u!65 &4777454022015003827
 BoxCollider:
   m_ObjectHideFlags: 0

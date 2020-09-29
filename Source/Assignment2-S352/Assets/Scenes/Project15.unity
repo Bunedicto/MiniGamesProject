@@ -758,6 +758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1128873052}
   - component: {fileID: 1128873051}
+  - component: {fileID: 1128873053}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -788,7 +789,7 @@ MonoBehaviour:
   - {fileID: 5626452297013284046, guid: c5bbabce5ea79419488492993bfdadf0, type: 3}
   - {fileID: 3867821073191959212, guid: 591e0b0a9b4dd4709ad61b99dabf57ef, type: 3}
   timer: 60
-  isGameActive: 0
+  isGameActive: 1
 --- !u!4 &1128873052
 Transform:
   m_ObjectHideFlags: 0
@@ -803,6 +804,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1128873053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128873050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60aa0bda25b44694ba7508edc6ee2d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  timerText: {fileID: 0}
+  gameOverText: {fileID: 0}
+  titleScreen: {fileID: 0}
+  restartButton: {fileID: 0}
+  targetPrefabs:
+  - {fileID: 5817859361576445215, guid: 9cc97627ed18b449695d703ab651f5cd, type: 3}
+  - {fileID: 1996815852551487035, guid: 11bccc60726374a918b5c73120d47ab3, type: 3}
+  - {fileID: 5626452297013284046, guid: c5bbabce5ea79419488492993bfdadf0, type: 3}
+  - {fileID: 3867821073191959212, guid: 591e0b0a9b4dd4709ad61b99dabf57ef, type: 3}
+  timer: 60
+  isGameActive: 0
 --- !u!1 &1257217955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,7 +1032,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 974bd4a652b6f440d976421ae8da5a91, type: 2}
+  - {fileID: 2100000, guid: 55f132f590dbffe429e57bb1deabdc95, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
