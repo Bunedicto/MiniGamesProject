@@ -92,8 +92,8 @@ public class GameManager : MonoBehaviour
         game6.onClick.AddListener(Game6);
 
         game7.onClick.AddListener(Game7);
-        game8.onClick.AddListener(ComingSoon);
-        game9.onClick.AddListener(ComingSoon);
+        game8.onClick.AddListener(Game8);
+        game9.onClick.AddListener(Game9);
 
         backButton.onClick.AddListener(LoadUI);
         nextButton.onClick.AddListener(ComingSoon);
@@ -101,39 +101,39 @@ public class GameManager : MonoBehaviour
 
     public void Game1()
     {
-        SceneManager.LoadScene("project6", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project6", LoadSceneMode.Single);
     }
     public void Game2()
     {
-        SceneManager.LoadScene("project7", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project7", LoadSceneMode.Single);
     }
     public void Game3()
     {
-        SceneManager.LoadScene("project8", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project8", LoadSceneMode.Single);
     }
     public void Game4()
     {
-        SceneManager.LoadScene("project10", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project10", LoadSceneMode.Single);
     }
     public void Game5()
     {
-        SceneManager.LoadScene("project11", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project11", LoadSceneMode.Single);
     }
     public void Game6()
     {
-        SceneManager.LoadScene("project12", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project12", LoadSceneMode.Single);
     }
     public void Game7()
     {
-        SceneManager.LoadScene("project13", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project13", LoadSceneMode.Single);
     }
     public void Game8()
     {
-        //SceneManager.LoadScene("project14", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project14", LoadSceneMode.Single);
     }
     public void Game9()
     {
-        //SceneManager.LoadScene("project15", LoadSceneMode.Single);
+        SceneManager.LoadScene("Project15", LoadSceneMode.Single);
     }
     
     public void ComingSoon()
