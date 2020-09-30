@@ -7,7 +7,7 @@ public class P12SpawnManager : MonoBehaviour
     public GameObject enemyPrefab;
     public GameObject powerupPrefab;
     private float spawnRange = 9.0f;
-    public int enemyCount = 1;
+    public int enemyCount;
     public int waveNumber = 1;
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class P12SpawnManager : MonoBehaviour
     void Update()
     {
         enemyCount = FindObjectsOfType<P12Enemy>().Length;
-        
+
         if(enemyCount == 0)
         {
             waveNumber++;

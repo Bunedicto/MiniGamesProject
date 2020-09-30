@@ -89,7 +89,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 11368019182273911}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2af2155c13f474d4494898500e806777, type: 3}
+  m_Script: {fileID: 11500000, guid: 29e6556bfaaf8448faa6f3f29def86ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spinSpeed: -100
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 11368019182273911}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81a5c5922d659ff418abc8caa9b98f81, type: 3}
+  m_Script: {fileID: 11500000, guid: 0bf1b15f61b704c8e8e279e263bb77b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
